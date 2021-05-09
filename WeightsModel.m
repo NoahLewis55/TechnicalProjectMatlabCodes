@@ -95,7 +95,7 @@ for i_hunt_bat = 1:b
 %         batH(i_hunt_bat, i_hunt_round) = rand(1);   % continuous random distribution
 %         batH(i_hunt_bat, i_hunt_round) = 2 - randi(2);   % good or bad (1 or 0)
         x = rand;
-        if x < 0.08
+        if x < 0.07
             batH(i_hunt_bat, i_hunt_round) = 0.01;
         else
             batH(i_hunt_bat, i_hunt_round) = (1/3)*rand(1) + (1/3);
